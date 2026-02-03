@@ -9,11 +9,12 @@
         "dev": "node --watch index.js"
     },
     "dependencies": {
+        "@google/generative-ai": "*",
         "cors": "*",
         "dotenv": "*",
         "express": "*",
-        "@google/generative-ai": "*",
-        "multer": "*",
-        "mongoose": "*"
+        "express-rate-limit": "^8.2.1",
+        "mongoose": "*",
+        "multer": "*"
     }
 }
